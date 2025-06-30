@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-// import { menuItems } from './Sidebar';
+
 import { CardContent } from './ui/card';
 import UserInfo from './AdminMenu/Dashboard/UserInfo';
 import StatsSection from './AdminMenu/Dashboard/StatsSection';
 import SummaryBar from './AdminMenu/Dashboard/SummaryBar';
 import RecentActivities from './AdminMenu/Dashboard/RecentActivities';
-// import MemberList from './AdminMenu/MemberList';
-// import TorrityAgentList from './AdminMenu/TorrityAgentList';
+
 import MasterAgent from './AdminMenu/MasterAgent';
 import DepositWithdraw from './AdminMenu/DepositWithdraw';
 import DepositHistory from './AdminMenu//DepositHistory';
@@ -96,9 +95,6 @@ const Dashboard = () => {
               </>
             )}
 
-            {/* {active === 'Member List' && <MemberList />}
-
-            {active === 'Territory Agent List' && <TorrityAgentList />} */}
             {active === 'Master Agent List' && <MasterAgent />}
             {active === 'Deposit & Withdraw' && <DepositWithdraw />}
             {active === 'Deposit History' && <DepositHistory />}

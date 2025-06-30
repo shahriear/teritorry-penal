@@ -17,7 +17,6 @@ const Sidebar = ({ active, setActive, menuOpen, setMenuOpen }) => {
           menuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
         )}
       >
-        {/* Title */}
         <div className="text-5xl  font-dm font-[700] text-[48px] pt-5 text-white md:text-black hidden md:block">
           Teritorry
         </div>

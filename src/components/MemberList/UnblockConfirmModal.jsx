@@ -10,7 +10,7 @@ const UnblockConfirmModal = ({ isOpen, onClose, onConfirm, name }) => {
             Unblock Member
           </Dialog.Title>
           <p className="font-dm font-[400] md:text-[14px] text-[13px] text-gray-600 mb-6">
-            Are you sure you want to{' '}
+            Are you sure you want to
             <span className="text-green-600">unblock</span> {name}?
           </p>
           <div className="flex justify-center gap-2">

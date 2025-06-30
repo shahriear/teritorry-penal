@@ -1,9 +1,7 @@
-// BalanceModal.jsx
 import React, { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import AddBalanceModal from './AddBalanceModal';
 import WithdrawBalanceModal from './WithdrawBalanceModal';
-// import WithdrawBalanceModal from './WithdrawBalanceModal';
 
 const BalanceModal = ({ isOpen, onClose }) => {
   const [showAddBalance, setShowAddBalance] = useState(false);

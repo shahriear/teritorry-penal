@@ -1,18 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
-// import UserInfo from './UserInfo';
-// import { Card, CardContent } from '../../ui/card';
+
 import { CgProfile } from 'react-icons/cg';
 import { TbSettingsPause } from 'react-icons/tb';
 import { AiOutlinePlusCircle } from 'react-icons/ai';
 import { FiMinusCircle } from 'react-icons/fi';
-// import ChangeNameModal from '../../AdminModals/ChangeNameModal';
+
 import ChangePasswordModal from '../../AdminModals/ChangePasswordModal';
 import { Card, CardContent } from '../../ui/card';
 import ChangeNameModal from '../../AdminModals/ChangeNameModal';
 import UserInfo from './UserInfo';
-// import CreateAdminModal from '../../AdminModals/CreateAdminModal';
-// import DeleteAdminModal from '../../AdminModals/DeleteAdminModal';
-// import ChangeNameModal from '../AdminModals/ChangeNameModal';
 
 const AdminActionMenu = ({ size = 'xl', className = '' }) => {
   const [open, setOpen] = useState(false);
@@ -57,7 +53,9 @@ const AdminActionMenu = ({ size = 'xl', className = '' }) => {
                 className={`${imageClass} rounded-full object-cover`}
               />
               <div className="text-left">
-                <div className="font-dm font-[600] text-[20px] ">Shuvo</div>
+                <div className="font-dm font-[600] text-[20px] ">
+                  Nancy Himel
+                </div>
                 <div className="font-dm font-[300] text-[12px] text-gray-500">
                   Admin / (Admin ID)
                 </div>

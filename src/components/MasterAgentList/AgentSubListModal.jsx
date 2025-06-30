@@ -43,7 +43,6 @@ const AgentSubListModal = ({
       <div className="fixed inset-0 bg-black/40" aria-hidden="true" />
       <div className="fixed inset-0 flex items-center justify-center p-4">
         <Dialog.Panel className="w-full max-w-4xl rounded bg-white p-4 shadow-lg">
-          {/* Search */}
           <div className="mb-8 mt-4 flex justify-end">
             <div className="relative max-w-sm ">
               <input
@@ -59,7 +58,6 @@ const AgentSubListModal = ({
             </div>
           </div>
 
-          {/* Table */}
           <div className="overflow-x-auto">
             <div className="min-w-[700px]">
               <div className="grid grid-cols-[1fr_1fr_1fr_1fr_2fr] bg-[#C3C2C2] p-2 rounded text-center font-dm text-[11px] md:text-[14px] font-[500]">
