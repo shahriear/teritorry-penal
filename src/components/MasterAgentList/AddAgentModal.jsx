@@ -127,7 +127,7 @@ const AddAgentModal = ({ isOpen, onClose }) => {
               <input
                 type="password"
                 placeholder="Enter Password *"
-                className="w-full border rounded px-3 py-2 bg-[#D9D9D9] font-[400] md:text-[16px] text-[14px]"
+                className="w-full border rounded px-3 py-2 bg-[#D9D9D9] font-[400] md:text-[16px] text-[16px]"
                 value={password}
                 onChange={e => setPassword(e.target.value)}
               />
